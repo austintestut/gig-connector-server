@@ -53,6 +53,13 @@ You will need to update the content in these files to names of your project and 
 * package.json: name, version, description, repository, author, bugs, homepage
 * LICENSE: (update to your preferred license)
 * this README.md
+* create a .env file structured like this:
+  *  DATABASE_URL=
+  *  NODE_ENV=
+  *  PORT=
+  *  ORIGIN=
+  *  DOMAIN=
+  *  SESSION_SECRET=
 
 This is also a good time to go through the included libraries to add or remove features that you want.
 
